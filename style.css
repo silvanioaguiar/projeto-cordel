@@ -24,6 +24,7 @@ header > h1 {
     font-family: Passion One,cursive;
     font-weight: lighter;
     font-size: 10vw ;
+    font-variant: small-caps;
     padding: 30px 0px 0px 0px;
 }
 
@@ -52,6 +53,7 @@ section{
     font-size: 3.5vw;
     padding: 10px;
     margin: 10px;
+    
 }
 section#img01 {
     background-image: url("imagens/background001.jpg");
@@ -60,11 +62,15 @@ section#img01 {
     background-size: cover;
     background-attachment: fixed;
     
+    
 }
 section#img01 > p {
     color: white;
     background-color: rgba(0, 0, 0, 0.342);
-    width: 45vw;
+    display:inline-block ;
+    text-shadow: 1px 1px black;
+    
+    
 }
 
 section#img02 {
@@ -73,13 +79,15 @@ section#img02 {
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
+   
     
 }
 
 section#img02 > p {
     color: white;
     background-color: rgba(0, 0, 0, 0.342);
-    width: 45vw;
+    display: inline-block;
+    text-shadow: 1px 1px black;
 }
 p{
     padding: 10px;
@@ -92,7 +100,7 @@ footer{
     text-align: center;
     padding: 5px;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 footer > a {
